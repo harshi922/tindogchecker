@@ -1,0 +1,137 @@
+body{
+  font-family: "Montserrat",sans-serif;
+  font-weight: bold;
+}
+/* headings */
+h1,h2,h3,h4,h5,h6{
+  font-family: "Montserrat-Black", sans-serif;
+}
+h2{
+  line-height: 1.5;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.big-header{
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #fff;
+  text-align: left;
+}
+.testimonial-text{
+font-size: 1.5rem;
+font-weight: bold;
+}
+/* headings */
+p{
+  color: gray;
+  text-align: center;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+  background-color: #ff4c68;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.testimonial-image{
+  width: 10%;
+  margin:20px;
+  border-radius: 100%;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light",sans-serif;
+}
+.Download-Margin{
+  margin: 5% 12% 5% 0;
+}
+.titleimage{
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  left: 55%;
+}
+.featurecol{
+  text-align: center;
+  padding: 5px;
+}
+
+.icon{
+  color: #ef8172;
+  padding-bottom: 1rem;
+}
+.icon:hover{
+  color:#ff4c68;
+}
+.press-img{
+  width:15%;
+  margin: 20px 20px 50px;
+}
+.carousel-item{
+  padding: 7% 15%;
+
+}
+.footer-btn{
+  margin: 30px;
+}
+
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-text
+{
+  padding-bottom: 5%;
+
+}
+  #title{
+    text-align: center;
+  }
+
+}
+
+#title{
+  background-color: #ff4c68;
+  color : #fff;
+}
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+#cta{
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+  padding: 7% 15% 7%;
+}
+#footer{
+  background-color: #fff;
+  padding: 7% 15% ;
+}
+@media (max-width:1028px)  {
+  .titleimage
+  {
+    position: static;
+    transform: rotate(0);
+    width: 70%;
+  }
